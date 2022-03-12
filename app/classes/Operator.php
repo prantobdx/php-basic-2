@@ -43,25 +43,27 @@ class Operator
            *FOR
            *WHILE
            *DO WHILE
+           *FOREACH
         *Array   
         */
 
-        // echo 'hello statement';
+// =========-----===========
 
-        switch ($this->f)
-        {
-            case 10:
-                echo "hello world";
-                break;
-            case 20:
-                echo "Hello City"; 
-                break;
-            case 30:
-                echo "Hello Bangladesh"; 
-                break;
-            default:
-            echo 'Bye';          
-        }
+
+        // switch ($this->f)
+        // {
+        //     case 10:
+        //         echo "hello world";
+        //         break;
+        //     case 20:
+        //         echo "Hello City"; 
+        //         break;
+        //     case 30:
+        //         echo "Hello Bangladesh"; 
+        //         break;
+        //     default:
+        //     echo 'Bye';          
+        // }
 
 
         // if($this->x > $this->y)

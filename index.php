@@ -4,6 +4,8 @@ require_once 'vendor/autoload.php';
 
 use App\classes\Example;
 use App\classes\Operator;
+use App\classes\Person;
+use App\classes\Example_2;
 
 // $example = new Example();
 // $example->index();
@@ -17,7 +19,10 @@ use App\classes\Operator;
 // echo '<br/>';
 // $example->methodThree();
 
-$Operator = new Operator();
-$Operator->index();
+// $Operator = new Operator();
+// $Operator->index();
 
-// 2:26:00 C:16
+$exam = new Example_2();
+$exam->index();
+
+
