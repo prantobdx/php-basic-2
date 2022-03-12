@@ -22,7 +22,7 @@ class Example extends Person
         // $x = '10.34';
         // $x = 10.34;
         // $x = true;
-        // // echo gettype($this->firstName);
+        // echo gettype($this->firstName);
 
         // echo gettype($x);
         $this->firstName = "Mr."; 
@@ -48,7 +48,6 @@ class Example extends Person
         // echo $this->distict;
         // echo $this->division;
         // echo $this->country;
-        // $this->country();
         $this->xyz();
        
     }
